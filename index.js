@@ -69,13 +69,15 @@ console.log(pessoa.ehMaiorDeIdade);
 console.log(pessoa.altura);
 */
 
+
 //CONDICIONAIS
+/*
 const pessoa = {
   nome: "Francilaine",
   idade: 114,
   ehMaiorDeIdade: true,
   altura: 1.68
-};
+};*/
 
 /*
 if (pessoa.idade >= 18) {
@@ -91,13 +93,69 @@ if (pessoa.idade < 18) {
   console.log("A pessoa é adulta.");
 }  else {
     console.log("A pessoa é idosa.");
-  };
-*/
-  
+};*/
+
+/*  
 if (pessoa.idade < 18) {
   console.log(pessoa.nome + " é menor de idade.");
 } else if (pessoa.idade < 60) {
   console.log(`${pessoa.nome} é adulto.`);
 }  else {
-    console.log(`${pessoa.nome} é uma idosa de ${pessoa.idade} anos.`);
-  };
+    console.log(`${pessoa.nome} é uma idosa de $ {pessoa.idade} anos.`);
+};
+*/
+
+
+
+//OPERADORES LOGICOS
+/*const pessoa = {
+  nome: "Pedro",
+  idade: 9,
+  altura: 1.39
+};*/
+
+// idade minima = 12
+// altura minima = 1.40
+
+/*
+if (pessoa.idade > 12) {
+  if (pessoa.altura > 1.40) {
+    console.log(`${pessoa.nome} pode brincar.`);
+  } else {
+      console.log(`${pessoa.nome} não pode brincar porque não tem a altura mínima.`);
+    }
+} else {
+  console.log(`${pessoa.nome} não pode brincar porque não tem a idade mínima.`);
+}
+
+
+if (pessoa.idade > 12 && pessoa.altura > 1.40) {
+  console.log(`${pessoa.nome} pode brincar.`);
+} else {
+  console.log(`${pessoa.nome} não pode brincar.`);
+}
+
+if (pessoa.idade > 12 || pessoa.altura > 1.40) {
+  console.log(`${pessoa.nome} pode brincar.`);
+} else {
+  console.log(`${pessoa.nome} não pode brincar.`);
+}*/
+
+
+
+const pessoa = {
+  nome: "João",
+  temPassaporte: false
+};
+
+/*
+if (pessoa.temPassaporte) {
+  console.log("Pode viajar.");
+} else {
+  console.log("Não pode viajar")
+}*/
+
+
+if (!pessoa.temPassaporte) {
+  console.log("BARRADO!")
+}
