@@ -72,7 +72,7 @@ console.log(pessoa.altura);
 //CONDICIONAIS
 const pessoa = {
   nome: "Francilaine",
-  idade: 34,
+  idade: 114,
   ehMaiorDeIdade: true,
   altura: 1.68
 };
@@ -83,7 +83,7 @@ if (pessoa.idade >= 18) {
 } else {
   console.log("É menor de idade.")
 }
-*/ 
+
 
 if (pessoa.idade < 18) {
   console.log("A pessoa é menor de idade.");
@@ -91,4 +91,13 @@ if (pessoa.idade < 18) {
   console.log("A pessoa é adulta.");
 }  else {
     console.log("A pessoa é idosa.");
+  };
+*/
+  
+if (pessoa.idade < 18) {
+  console.log(pessoa.nome + " é menor de idade.");
+} else if (pessoa.idade < 60) {
+  console.log(`${pessoa.nome} é adulto.`);
+}  else {
+    console.log(`${pessoa.nome} é uma idosa de ${pessoa.idade} anos.`);
   };
