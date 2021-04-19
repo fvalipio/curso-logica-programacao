@@ -17,5 +17,36 @@ console.log(idade);
 
 
 //booleanos - camel case
+/*
 const ehMaiorDeIdade = false;
 console.log(ehMaiorDeIdade);
+*/
+
+//operadores matematicos
+//const resultado = 5 / 4
+//const resto = 5 % 4
+//console.log(resto)
+//const resultado = 5 + 4 * 3 - 8
+
+/*
+let resultado = 5
+resultado = resultado + 5
+resultado += 5
+resultado -= 5
+resultado += 5
+resultado /= 5
+resultado ++
+resultado --
+
+console.log(resultado)
+*/
+
+//IMC
+//imc = massa (kg) / altura_ao_quadrado (m)
+
+const massa = 67;
+const altura = 1.68;
+
+const imc = massa / (altura * altura);
+
+console.log(imc);
