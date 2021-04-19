@@ -43,7 +43,7 @@ resultado --
 console.log(resultado)
 */
 
-//IMC
+//EXERCICIO CALCULADORA IMC
 //imc = massa (kg) / altura_ao_quadrado (m)
 /*
 const massa = 67;
@@ -55,6 +55,7 @@ console.log(imc);
 */
 
 //OBJETOS
+/*
 const pessoa = {
   nome: "Francilaine",
   idade: 34,
@@ -66,3 +67,28 @@ console.log(pessoa.nome);
 console.log(pessoa.idade);
 console.log(pessoa.ehMaiorDeIdade);
 console.log(pessoa.altura);
+*/
+
+//CONDICIONAIS
+const pessoa = {
+  nome: "Francilaine",
+  idade: 34,
+  ehMaiorDeIdade: true,
+  altura: 1.68
+};
+
+/*
+if (pessoa.idade >= 18) {
+  console.log("É maior de idade.")
+} else {
+  console.log("É menor de idade.")
+}
+*/ 
+
+if (pessoa.idade < 18) {
+  console.log("A pessoa é menor de idade.");
+} else if (pessoa.idade < 60) {
+  console.log("A pessoa é adulta.");
+}  else {
+    console.log("A pessoa é idosa.");
+  };
