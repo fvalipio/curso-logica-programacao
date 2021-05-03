@@ -221,3 +221,22 @@ for (let item of lista) {
 console.log(resultado)*/
 
 //FUNÇÕES
+/*function imprimirOlaNaTela (){
+  console.log("Olá!");
+}
+
+imprimirOlaNaTela();
+console.log("Oi");
+imprimirOlaNaTela();*/
+
+//FUNÇÕES COM PARAMETROS
+/*
+function cumprimentarPessoa(nome) {
+  console.log("Olá, " + nome);
+}
+
+cumprimentarPessoa("Francilaine");
+cumprimentarPessoa("Maria");
+*/
+
+
