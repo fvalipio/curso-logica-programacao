@@ -165,7 +165,6 @@ if (!pessoa.temPassaporte) {
 /*
 const listaDeCompras = ["Arroz", "Batata", "Maça"];
 
-console.log(listaDeCompras[0]);
 console.log(listaDeCompras[1]);
 console.log(listaDeCompras[2]);
 */
@@ -181,3 +180,44 @@ while (indice < listaDeCompras.length) {
 }*/
 
 //LOOPS FOR
+/*
+const listaDeCompras = ["Arroz", "Batata", "Maça", "Pêra"];
+
+
+for (let indice = 0; indice < listaDeCompras.length; indice++) {
+  console.log(listaDeCompras[indice]);
+}*/
+
+//LOOPS OUTRO TIPO DE FOR
+/*
+const listaDeCompras = ["Arroz", "Batata", "Maça", "Pêra"];
+
+for (let item of listaDeCompras) {
+  console.log(item)
+}*/
+
+//VERIFICAR SE TEM 'BANANA' NA LISTA
+/*const listaDeCompras = ["Arroz", "Batata", "Banana", "Pêra"];
+
+for (let item of listaDeCompras) {
+  console.log("Verificando item: " + item);
+  if (item === "Banana") {
+    console.log("Banana está na lista");
+    break;
+  }
+}*/
+
+//FILTRAR ELEMENTOS QUE COMECEM COM A LETRA 'A'
+/*const lista = ["Arroz", "Batata", "amora"];
+
+const resultado = [];
+
+for (let item of lista) {
+  if (item[0] === "A" || item[0] === "a") {
+    resultado.push(item);
+  }
+}
+
+console.log(resultado)*/
+
+//FUNÇÕES
