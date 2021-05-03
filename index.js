@@ -142,20 +142,42 @@ if (pessoa.idade > 12 || pessoa.altura > 1.40) {
 }*/
 
 
-
+/*
 const pessoa = {
   nome: "João",
   temPassaporte: false
 };
 
-/*
+
 if (pessoa.temPassaporte) {
   console.log("Pode viajar.");
 } else {
   console.log("Não pode viajar")
-}*/
+}
 
 
 if (!pessoa.temPassaporte) {
   console.log("BARRADO!")
 }
+*/
+
+//ARRAYS
+/*
+const listaDeCompras = ["Arroz", "Batata", "Maça"];
+
+console.log(listaDeCompras[0]);
+console.log(listaDeCompras[1]);
+console.log(listaDeCompras[2]);
+*/
+
+//LOOPS WHILE
+/*
+const listaDeCompras = ["Arroz", "Batata", "Maça","Pêra"];
+
+let indice = 0
+while (indice < listaDeCompras.length) {
+  console.log(listaDeCompras[indice]);
+  indice++;
+}*/
+
+//LOOPS FOR
